@@ -10,26 +10,40 @@
 		81995DA42A31273700D921ED /* ComparingDatesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81995DA32A31273700D921ED /* ComparingDatesApp.swift */; };
 		81995DA82A31273800D921ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81995DA72A31273800D921ED /* Assets.xcassets */; };
 		81995DAB2A31273800D921ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81995DAA2A31273800D921ED /* Preview Assets.xcassets */; };
-		81995DB32A31275400D921ED /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = 81995DB22A31275400D921ED /* SwiftDate */; };
 		81995DB82A31308000D921ED /* AppDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81995DB72A31308000D921ED /* AppDatabase.swift */; };
 		81995DBB2A31309F00D921ED /* Blackbird in Frameworks */ = {isa = PBXBuildFile; productRef = 81995DBA2A31309F00D921ED /* Blackbird */; };
 		81995DBE2A31311E00D921ED /* db.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 81995DBD2A31311E00D921ED /* db.sqlite */; };
 		81995DC02A31312700D921ED /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81995DBF2A31312700D921ED /* Mood.swift */; };
 		81995DC52A3132B400D921ED /* MoodsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81995DC42A3132B400D921ED /* MoodsListView.swift */; };
 		81995DC72A3132BF00D921ED /* AddMoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81995DC62A3132BF00D921ED /* AddMoodView.swift */; };
+		81995DCA2A313C2800D921ED /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = 81995DC92A313C2800D921ED /* SwiftDate */; };
+		81995DE62A313E2100D921ED /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = 81995DE52A313E2100D921ED /* SwiftDate */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		81995DDC2A313E1A00D921ED /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		81995DA02A31273700D921ED /* ComparingDates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComparingDates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81995DA32A31273700D921ED /* ComparingDatesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparingDatesApp.swift; sourceTree = "<group>"; };
 		81995DA72A31273800D921ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81995DAA2A31273800D921ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		81995DB52A312AF400D921ED /* EncodingAndDecodingDates.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = EncodingAndDecodingDates.playground; path = ComparingDates/EncodingAndDecodingDates.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		81995DB72A31308000D921ED /* AppDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDatabase.swift; sourceTree = "<group>"; };
 		81995DBD2A31311E00D921ED /* db.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = db.sqlite; sourceTree = "<group>"; };
 		81995DBF2A31312700D921ED /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
 		81995DC42A3132B400D921ED /* MoodsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodsListView.swift; sourceTree = "<group>"; };
 		81995DC62A3132BF00D921ED /* AddMoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMoodView.swift; sourceTree = "<group>"; };
+		81995DDE2A313E1A00D921ED /* DatesCommandLine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DatesCommandLine; sourceTree = BUILT_PRODUCTS_DIR; };
+		81995DE72A313E5E00D921ED /* DatesComparison.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DatesComparison.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,8 +51,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81995DB32A31275400D921ED /* SwiftDate in Frameworks */,
+				81995DCA2A313C2800D921ED /* SwiftDate in Frameworks */,
 				81995DBB2A31309F00D921ED /* Blackbird in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81995DDB2A313E1A00D921ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81995DE62A313E2100D921ED /* SwiftDate in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,9 +70,10 @@
 		81995D972A31273700D921ED = {
 			isa = PBXGroup;
 			children = (
-				81995DB52A312AF400D921ED /* EncodingAndDecodingDates.playground */,
+				81995DE72A313E5E00D921ED /* DatesComparison.playground */,
 				81995DA22A31273700D921ED /* ComparingDates */,
 				81995DA12A31273700D921ED /* Products */,
+				81995DD62A313CE400D921ED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				81995DA02A31273700D921ED /* ComparingDates.app */,
+				81995DDE2A313E1A00D921ED /* DatesCommandLine */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,6 +133,13 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		81995DD62A313CE400D921ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,12 +157,32 @@
 			);
 			name = ComparingDates;
 			packageProductDependencies = (
-				81995DB22A31275400D921ED /* SwiftDate */,
 				81995DBA2A31309F00D921ED /* Blackbird */,
+				81995DC92A313C2800D921ED /* SwiftDate */,
 			);
 			productName = ComparingDates;
 			productReference = 81995DA02A31273700D921ED /* ComparingDates.app */;
 			productType = "com.apple.product-type.application";
+		};
+		81995DDD2A313E1A00D921ED /* DatesCommandLine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81995DE22A313E1A00D921ED /* Build configuration list for PBXNativeTarget "DatesCommandLine" */;
+			buildPhases = (
+				81995DDA2A313E1A00D921ED /* Sources */,
+				81995DDB2A313E1A00D921ED /* Frameworks */,
+				81995DDC2A313E1A00D921ED /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DatesCommandLine;
+			packageProductDependencies = (
+				81995DE52A313E2100D921ED /* SwiftDate */,
+			);
+			productName = DatesCommandLine;
+			productReference = 81995DDE2A313E1A00D921ED /* DatesCommandLine */;
+			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
@@ -146,6 +197,9 @@
 					81995D9F2A31273700D921ED = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
+					81995DDD2A313E1A00D921ED = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
 				};
 			};
 			buildConfigurationList = 81995D9B2A31273700D921ED /* Build configuration list for PBXProject "ComparingDates" */;
@@ -158,14 +212,15 @@
 			);
 			mainGroup = 81995D972A31273700D921ED;
 			packageReferences = (
-				81995DB12A31275400D921ED /* XCRemoteSwiftPackageReference "SwiftDate" */,
 				81995DB92A31309F00D921ED /* XCRemoteSwiftPackageReference "Blackbird" */,
+				81995DC82A313C2800D921ED /* XCRemoteSwiftPackageReference "SwiftDate" */,
 			);
 			productRefGroup = 81995DA12A31273700D921ED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				81995D9F2A31273700D921ED /* ComparingDates */,
+				81995DDD2A313E1A00D921ED /* DatesCommandLine */,
 			);
 		};
 /* End PBXProject section */
@@ -193,6 +248,13 @@
 				81995DB82A31308000D921ED /* AppDatabase.swift in Sources */,
 				81995DA42A31273700D921ED /* ComparingDatesApp.swift in Sources */,
 				81995DC52A3132B400D921ED /* MoodsListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81995DDA2A313E1A00D921ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +433,32 @@
 			};
 			name = Release;
 		};
+		81995DE32A313E1A00D921ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UG443984D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		81995DE42A313E1A00D921ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UG443984D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -392,17 +480,18 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		81995DE22A313E1A00D921ED /* Build configuration list for PBXNativeTarget "DatesCommandLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81995DE32A313E1A00D921ED /* Debug */,
+				81995DE42A313E1A00D921ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		81995DB12A31275400D921ED /* XCRemoteSwiftPackageReference "SwiftDate" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/malcommac/SwiftDate";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 7.0.0;
-			};
-		};
 		81995DB92A31309F00D921ED /* XCRemoteSwiftPackageReference "Blackbird" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/marcoarment/Blackbird";
@@ -411,18 +500,31 @@
 				kind = branch;
 			};
 		};
+		81995DC82A313C2800D921ED /* XCRemoteSwiftPackageReference "SwiftDate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/malcommac/SwiftDate";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		81995DB22A31275400D921ED /* SwiftDate */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 81995DB12A31275400D921ED /* XCRemoteSwiftPackageReference "SwiftDate" */;
-			productName = SwiftDate;
-		};
 		81995DBA2A31309F00D921ED /* Blackbird */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 81995DB92A31309F00D921ED /* XCRemoteSwiftPackageReference "Blackbird" */;
 			productName = Blackbird;
+		};
+		81995DC92A313C2800D921ED /* SwiftDate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 81995DC82A313C2800D921ED /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			productName = SwiftDate;
+		};
+		81995DE52A313E2100D921ED /* SwiftDate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 81995DC82A313C2800D921ED /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			productName = SwiftDate;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
