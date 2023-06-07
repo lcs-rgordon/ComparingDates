@@ -14,7 +14,7 @@ struct AddMoodView: View {
     // Access the connection to the database (needed to add a new record)
     @Environment(\.blackbirdDatabase) var db: Blackbird.Database?
         
-    // Holds details for the new movie
+    // Holds details for how person is feeling right now
     @State var feeling = ""
     
     // MARK: Computed properties

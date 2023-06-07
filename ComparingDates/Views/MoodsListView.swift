@@ -17,7 +17,7 @@ struct MoodsListView: View {
         try await Mood.read(from: db)
     }) var moods
     
-    // Is the interface to add a movie visible right now?
+    // Is the interface to add a mood visible right now?
     @State var showingAddMoodView = false
     
     // MARK: Computed properties
