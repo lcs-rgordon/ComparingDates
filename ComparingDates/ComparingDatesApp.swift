@@ -11,7 +11,10 @@ import SwiftUI
 struct ComparingDatesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MoodsListView()
+            // Make the database available to all other view through the environment
+            .environment(\.blackbirdDatabase, AppDatabase.instance)
+
         }
     }
 }

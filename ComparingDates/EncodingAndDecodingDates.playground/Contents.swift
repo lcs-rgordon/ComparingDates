@@ -109,4 +109,3 @@ if someDate.isToday {
 } else {
     print("I just don't know when that is!")
 }
-
