@@ -20,7 +20,7 @@
 		81995DA52A31273700D921ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		81995DA72A31273800D921ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81995DAA2A31273800D921ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		81995DB52A312AF400D921ED /* EncodingAndDecodingDates.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = EncodingAndDecodingDates.playground; path = ComparingDates/EncodingAndDecodingDates.playground; sourceTree = "<group>"; };
+		81995DB52A312AF400D921ED /* EncodingAndDecodingDates.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = EncodingAndDecodingDates.playground; path = ComparingDates/EncodingAndDecodingDates.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
