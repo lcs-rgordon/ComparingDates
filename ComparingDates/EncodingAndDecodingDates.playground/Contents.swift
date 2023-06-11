@@ -109,3 +109,8 @@ if someDate.isToday {
 } else {
     print("I just don't know when that is!")
 }
+
+
+// NOTE: Also see Swift's RelativeDateFormatter examples
+//       https://iosdev.space/@sanguish/110360009898925170
+
