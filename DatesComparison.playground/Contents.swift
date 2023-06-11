@@ -1,5 +1,5 @@
+import Cocoa
 import SwiftDate
-import SwiftUI
 
 // Get the current date
 let now = Date()
